@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    	 <ImageView android:id = "@+id/splashScreenImage"
+    	      android:contentDescription="@string/menu1"
+    	      android:src = "@drawable/menu1"
+    	      android:layout_width = "match_parent" 
+    	      android:layout_height = "match_parent"
+    	      android:scaleType="fitXY">
+    	 </ImageView>
+    	 <TextView
+    	      android:text = "@string/credits"
+    	      android:id = "@+id/creditsText"
+    	      android:layout_alignParentBottom="true"
+    	      android:layout_marginBottom="20dp"
+              android:layout_centerHorizontal="true"
+              android:layout_marginRight="100dp"
+    	      android:layout_height = "wrap_content"
+    	      android:layout_width = "wrap_content">
+    	</TextView> 
+</RelativeLayout>
